@@ -11,5 +11,8 @@
         "sourceType": "module"
     },
     "rules": {
+        "no-restricted-imports": "warn",
+        "global-require": "warn",
+        "import/no-dynamic-require": "off"
     }
 }

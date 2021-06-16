@@ -1,0 +1,10 @@
+{
+  "development": {
+    "username": "tsdbadmin",
+    "password": "keqvomc1831wp4mz",
+    "database": "tsdb",
+    "host": "m0avs5h1c8.fb1q95hmbt.tsdb.forge.timescale.com",
+    "port": "30007",
+    "dialect": "postgres"
+  }
+}
