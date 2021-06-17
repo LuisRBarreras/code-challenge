@@ -1,7 +1,7 @@
 module.exports = (sequelize, Sequelize) => {
   const SensorMetrics = sequelize.define('sensor_metrics', {
     time: {
-      type: Sequelize.TIME,
+      type: Sequelize.DATE,
       allowNull: false,
     },
     power: {
