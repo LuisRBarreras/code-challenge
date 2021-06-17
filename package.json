@@ -4,7 +4,9 @@
   "description": "Build a small REST API that answers questions about sensor data collected in a single month",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "eslint ."
   },
   "engines": {
     "node": ">=14.17.1"

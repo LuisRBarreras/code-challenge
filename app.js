@@ -8,11 +8,6 @@ const prefix = 'v1';
 // Definition of routes
 app.use(`/${prefix}/sensor`, require('./api/sensor-metrics'));
 
-// Default route
-app.get('/', (req, res) => {
-  res.send('Running');
-});
-
 db.sequelize.sync();
 
 app.listen(port, () => {
